@@ -6,5 +6,7 @@ public class Main {
         cat.makeSound();
         dog.eatFood("Beef");
         cat.eatFood("Fish");
+        dog.mood(true);
+        cat.mood(false);
     }
 }
