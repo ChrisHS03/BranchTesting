@@ -4,4 +4,7 @@ public abstract class Animal {
     public void makeSound() {
         System.out.println("MakeSound");
     }
+    public boolean eatFood(String foodType) {
+        return true;
+    }
 }
